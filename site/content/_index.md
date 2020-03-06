@@ -30,8 +30,6 @@ products:
       of coffee beans grown with great care for the environment and local
       communities. Check our post or contact us directly for current
       availability.
-  - image: img/about-reinvest-profits.jpg
-    text: Third very important product to show
 values:
   heading: Our values
   text: >-
