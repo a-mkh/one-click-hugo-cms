@@ -30,6 +30,8 @@ products:
       of coffee beans grown with great care for the environment and local
       communities. Check our post or contact us directly for current
       availability.
+  - image: img/about-direct-sourcing.jpg
+    text: New important product
 values:
   heading: Our values
   text: >-
