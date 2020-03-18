@@ -1,3 +1,6 @@
+// This global flag enables manual initialization.
+window.CMS_MANUAL_INIT = true
+
 import React from "react";
 import CMS from "netlify-cms-app";
 
@@ -16,4 +19,10 @@ CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerPreviewTemplate("values", ValuesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
-CMS.init();
+CMS.init({
+	config: {
+		backend: {
+			branch: process.env.BRANCH
+		}
+	}
+});
