@@ -1,5 +1,5 @@
 ---
-title: Great coffee with a conscience on test branch pt2
+title: Great coffee with a conscience on test branch pt3
 subtitle: Support sustainable farming while enjoying a cup
 image: /img/home-jumbotron.jpg
 blurb:
