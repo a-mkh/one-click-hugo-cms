@@ -26,3 +26,4 @@ CMS.init({
 		}
 	}
 });
+console.log(process.env);
