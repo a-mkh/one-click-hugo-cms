@@ -19,11 +19,21 @@ CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerPreviewTemplate("values", ValuesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
+
+
+let branch = "master";
+let hostname = window.location.hostname.toLowerCase();
+let first_chunk = hostname.split('--')[0];
+
+if(first_chunk != hostname) {
+	branch = first_chunk
+}
+
+
 CMS.init({
 	config: {
 		backend: {
-			branch: process.env.BRANCH
+			branch: branch
 		}
 	}
 });
-console.log(process.env);
